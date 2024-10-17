@@ -1,10 +1,10 @@
 @import url('https://fonts.googleapis.com/css?family=Montserrat:400,600&display=swap');
 
 :root {
-  --border-color: #144fc6;
-  --fill-color: #6ab3f8;
-  --hover-color: #4a8fdb;
-}
+    --border-color: #f2f4f8;
+    --fill-color: #6ab3f8;
+    --hover-color: #4a8fdb;
+  }
 
 * {
   box-sizing: border-box;
@@ -33,6 +33,7 @@ h1 {
 
 h3 {
   font-weight: 400;
+padding: 20px;
   margin: 10px 0;
 }
 
@@ -107,7 +108,7 @@ h3 {
 }
 
 .percentage {
-  background-color: var(--fill-color);
+  background-color: rgb(171, 202, 231);
   display: flex;
   align-items: center;
   justify-content: center;
